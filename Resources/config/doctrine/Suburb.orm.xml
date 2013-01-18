@@ -5,8 +5,8 @@
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                   http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="Suburb" table="geo__suburb"
-            repository-class="SuburbRepository">
+    <entity name="Pasinter\GeoBundle\Entity\Suburb" table="geo__suburb"
+            repository-class="Pasinter\GeoBundle\Repository\SuburbRepository">
         <id name="id" column="id" type="integer">
             <generator strategy="AUTO" />
         </id>

@@ -5,8 +5,8 @@
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                   http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="Address" table="geo__address"
-            repository-class="AddressRepository">
+    <entity name="Pasinter\GeoBundle\Entity\Address" table="geo__address"
+            repository-class="Pasinter\GeoBundle\Repository\AddressRepository">
         <id name="id" column="id" type="integer">
             <generator strategy="AUTO" />
         </id>
